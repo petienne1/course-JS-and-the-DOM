@@ -1,5 +1,4 @@
-document.addEventListener('click', function() {
-  const mainHeading = document.querySelector('h1');
-
-  mainHeading.style.backgroundColor = 'red';
+document.addEventListener('keypress', function() {
+  console.log("removing first child");
+  document.querySelector('#contain-all').firstElementChild.remove();
 });
